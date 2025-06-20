@@ -1,0 +1,16 @@
+{
+  "name": "cctp-circle",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx ts-node src/manual-transfer.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@wormhole-foundation/sdk": "^1.1.1",
+    "dotenv": "^16.4.5"
+  }
+}
