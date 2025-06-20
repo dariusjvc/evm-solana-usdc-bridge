@@ -1,16 +1,20 @@
 {
-  "name": "cctp-circle",
+  "name": "evm-solana-usdc-bridge",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "src/main.ts",
   "scripts": {
-    "test": "npx ts-node src/manual-transfer.ts"
+    "start": "ts-node src/main.ts",
+    "dev": "ts-node-dev src/main.ts",
+    "build": "tsc",
+    "clean": "rm -rf dist"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
   "dependencies": {
     "@wormhole-foundation/sdk": "^1.1.1",
-    "dotenv": "^16.4.5"
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.8.3"
   }
 }
