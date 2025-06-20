@@ -24,6 +24,7 @@ evm-solana-usdc-bridge/
 │   ├── main.ts           # Main transfer logic
 │   ├── singer.ts         # Loads wallets/signers for EVM & Solana
 │   ├── config.ts         # Transfer params, chains, tokens, timeouts
+│   ├── utils.ts          # Utils used in the project
 ├── .env                  # Store private keys securely
 ├── tsconfig.json         # TypeScript configuration
 ├── package.json          # Project dependencies and scripts
